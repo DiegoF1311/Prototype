@@ -1,0 +1,1885 @@
+[00:00:00.799] Server  LOG      ✓ Ready in 547ms
+[00:00:08.827] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:08.827] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:08.827] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765696391904}
+[00:02:09.035] Server  LOG      ✓ Compiled in 193ms
+[00:02:27.183] Server  LOG      ✓ Compiled in 201ms
+[00:03:44.162] Server  LOG      ✓ Compiled in 135ms
+[00:07:03.066] Server  LOG      ✓ Compiled in 245ms
+[05:35:17.767] Server  LOG      ✓ Compiled in 379ms
+[05:36:05.600] Server  LOG      ✓ Compiled in 462ms
+[05:48:58.415] Browser ERROR   ./components/payment-process.tsx:93:37
+Parsing ecmascript source code failed
+  91 |         <div className="grid gap-8 lg:grid-cols-5">
+  92 |           {/* Payment Form */}
+> 93 |           <FormSDK.Render fieldJson=getStyle() />
+     |                                     ^^^^^^^^
+  94 |           {/* Ride Summary */}
+  95 |           <div className="lg:col-span-2">
+  96 |             <Card className="sticky top-24 p-6">
+
+Expected '</', got 'getStyle'
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:49:19.963] Server  LOG      ✓ Compiled in 166ms
+[05:49:20.406] Browser ERROR   ./components/payment-process.tsx:29:14
+Ecmascript file had an error
+  27 | };
+  28 |
+> 29 | export const FormSDK = {
+     |              ^^^^^^^
+  30 |   Render: ({ getStyle }: RenderProps) => {
+  31 |     const [styles, setStyles] = useState<any>(null);
+  32 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:49:31.570] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[05:49:31.572] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[05:49:31.572] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[05:49:31.572] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[05:49:31.578] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[05:49:31.587] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[05:49:31.588] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[05:49:31.603] Server  LOG      ✓ Compiled in 125ms
+[05:49:32.407] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:49:32.408] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:49:32.408] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:49:47.131] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+
+
+
+./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+
+./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[05:49:47.252] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:49:47.253] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:49:47.253] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:49:48.160] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:49:48.160] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:49:48.161] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:49:48.161] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:49:48.161] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:49:48.161] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:49:50.873] Browser ERROR   uncaughtError: Error: ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+
+
+[05:49:51.058] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:49:51.058] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:49:51.059] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:49:51.172] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:49:51.172] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:49:51.172] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:51:37.416] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:51:37.418] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:51:37.418] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:52:09.475] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:52:09.488] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:52:09.489] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:52:09.489] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:52:09.489] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:52:09.489] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:52:09.489] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:52:09.489] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:52:09.489] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:52:10.413] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:52:10.413] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:52:10.413] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:53:28.409] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:53:28.411] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:53:28.411] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:53:37.406] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:53:37.407] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:53:37.407] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:53:37.407] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:53:37.407] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:53:37.407] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:53:37.407] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:53:37.407] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:53:37.407] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:58:29.412] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:58:29.414] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:58:29.415] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[05:58:39.329] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[05:58:40.406] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[05:58:40.406] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[05:58:40.406] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[06:00:21.411] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:00:21.411] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:00:21.411] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[06:00:21.411] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:00:21.411] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:00:21.411] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[06:00:25.405] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:00:25.405] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:00:25.405] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[06:00:25.405] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:00:25.405] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:00:25.405] Browser ERROR   ./components/payment-process.tsx:30:14
+Ecmascript file had an error
+  28 | };
+  29 |
+> 30 | export const FormSDK = {
+     |              ^^^^^^^
+  31 |   Render: ({ getStyle }: RenderProps) => {
+  32 |     const [styles, setStyles] = useState<any>(null);
+  33 |     const [loading, setLoading] = useState(true);
+
+the name `FormSDK` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[06:00:43.698] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[06:00:44.407] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:00:44.407] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:00:44.407] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:00:44.407] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:00:51.196] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+
+
+
+./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[06:00:51.349] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:00:51.349] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:00:53.108] Browser ERROR   uncaughtError: Error: ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+
+
+[06:00:53.455] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:00:53.455] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:00:53.455] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:00:53.455] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:08:03.416] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:08:03.418] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:08:07.201] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+
+
+
+./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[06:08:09.021] Browser ERROR   uncaughtError: Error: ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+
+
+[06:08:09.262] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:08:09.262] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:08:09.262] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:08:09.262] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:09:13.012] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+
+
+
+./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[06:09:13.416] Browser ERROR   uncaughtError: Error: ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+
+
+[06:09:13.580] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:09:13.580] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:09:13.843] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:09:13.843] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:10:31.415] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:10:31.416] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:10:31.416] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:10:31.416] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:14:04.411] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:14:04.412] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:14:05.298] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:14:05.318] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:14:05.324] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:14:05.326] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:14:06.410] Browser ERROR   ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[06:14:11.406] Browser ERROR   ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[06:14:11.906] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[06:14:12.406] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:14:12.406] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:17:17.416] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:17:17.419] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.1.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:17:19.431] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:17:19.624] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:17:19.675] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:17:19.765] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:17:20.407] Browser ERROR   ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[06:17:22.416] Browser ERROR   ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[06:17:23.406] Browser ERROR   ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[06:17:23.406] Browser ERROR   ./components/payment-process.tsx:13:1
+Module not found: Can't resolve '@/node_modules/yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "@/node_modules/yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import map: aliased to relative './node_modules/yuno-demo-sdk-core' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[06:17:39.412] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:17:39.415] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:17:39.418] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:17:39.420] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:17:40.408] Browser ERROR   ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[06:23:05.850] Browser ERROR   ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[06:23:06.851] Browser ERROR   ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[06:29:59.564] Browser ERROR   ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[06:30:01.035] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.3.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[06:30:01.160] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.3.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:30:01.160] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.3.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:34:09.661] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.3.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:34:09.662] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.3.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:34:11.365] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:34:11.426] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:34:11.433] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:34:11.436] Server  ERROR    ⨯ ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[06:34:11.544] Browser ERROR   ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[06:34:36.046] Browser ERROR   ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[06:34:37.024] Browser ERROR   ./components/payment-process.tsx:13:1
+Module not found: Can't resolve 'yuno-demo-sdk-core'
+  11 | import { ArrowLeft, CreditCard, Wallet, Smartphone } from "lucide-react"
+  12 | import {FormaSDK} from "@/lib/yuno"
+> 13 | import { getStyle, getStyleResponse } from "yuno-demo-sdk-core";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  14 |
+  15 | interface PaymentProcessProps {
+  16 |   rideData: {
+
+Import traces:
+  Client Component Browser:
+    ./components/payment-process.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/payment-process.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[06:34:37.065] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[06:34:37.200] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:34:37.201] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:34:41.933] Server  ERROR    ⨯ ./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+
+
+
+./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+
+
+[06:34:43.486] Browser ERROR   uncaughtError: Error: ./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+
+
+[06:34:43.838] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:34:43.838] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[06:34:43.838] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[06:34:43.838] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[08:10:19.419] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[08:10:19.423] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[08:10:25.407] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Missing module type
+The module type effect must be applied before adding Ecmascript transforms
+[08:10:25.407] Browser ERROR   ./node_modules/.pnpm/yuno-demo-sdk-core@0.4.0/node_modules/yuno-demo-sdk-core/src/index.ts
+Unknown module type
+This module doesn't have an associated type. Use a known file extension, or register a loader for it.
+
+Read more: https://nextjs.org/docs/app/api-reference/next-config-js/turbo#webpack-loaders
+[08:10:38.525] Server  LOG      ✓ Compiled in 699ms
+[08:10:42.436] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[08:10:42.437] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[08:10:42.437] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765725824532}
+[08:37:52.046] Server  ERROR    ⨯ Error: Failed to load chunk server/chunks/ssr/node_modules__pnpm_7956e422._.js from runtime for chunk server/app/frame/page.js
+[08:37:53.698] Browser ERROR   uncaughtError: Error: Failed to load chunk server/chunks/ssr/node_modules__pnpm_7956e422._.js from runtime for chunk server/app/frame/page.js
+[08:38:35.743] Server  LOG      ✓ Compiled in 152ms
+[08:38:36.089] Server  ERROR    ⨯ Error: Failed to load chunk server/chunks/ssr/node_modules__pnpm_7956e422._.js from runtime for chunk server/app/frame/page.js
+[08:38:36.690] Browser ERROR   uncaughtError: Error: Failed to load chunk server/chunks/ssr/node_modules__pnpm_7956e422._.js from runtime for chunk server/app/frame/page.js
+[08:38:39.929] Server  ERROR    ⨯ Error: Failed to load chunk server/chunks/ssr/node_modules__pnpm_7956e422._.js from runtime for chunk server/app/frame/page.js
+[08:38:40.148] Browser ERROR   uncaughtError: Error: Failed to load chunk server/chunks/ssr/node_modules__pnpm_7956e422._.js from runtime for chunk server/app/frame/page.js
+[08:38:41.123] Server  ERROR    ⨯ Error: Failed to load chunk server/chunks/ssr/node_modules__pnpm_7956e422._.js from runtime for chunk server/app/frame/page.js
+[08:38:41.294] Browser ERROR   uncaughtError: Error: Failed to load chunk server/chunks/ssr/node_modules__pnpm_7956e422._.js from runtime for chunk server/app/frame/page.js
+[08:38:42.002] Server  ERROR    ⨯ Error: Failed to load chunk server/chunks/ssr/node_modules__pnpm_7956e422._.js from runtime for chunk server/app/frame/page.js
+[08:38:42.157] Browser ERROR   uncaughtError: Error: Failed to load chunk server/chunks/ssr/node_modules__pnpm_7956e422._.js from runtime for chunk server/app/frame/page.js
+[08:45:01.150] Server  LOG      ✓ Compiled in 244ms
+[08:45:02.728] Server  ERROR    ⨯ Error: The default export is not a React Component in "/frame/page"
+[08:45:02.984] Server  ERROR    ⨯ Error: The default export is not a React Component in "/frame/page"
+[08:45:03.887] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/frame/page"
+[08:51:12.883] Server  LOG      ✓ Compiled in 320ms
+[08:51:13.215] Server  ERROR    ⨯ Error: Failed to load chunk server/chunks/ssr/node_modules__pnpm_7956e422._.js from runtime for chunk server/app/frame/page.js
+[08:51:14.689] Browser ERROR   uncaughtError: Error: Failed to load chunk server/chunks/ssr/node_modules__pnpm_7956e422._.js from runtime for chunk server/app/frame/page.js
+[08:51:22.589] Server  LOG      ✓ Compiled in 99ms
+[08:51:23.041] Server  ERROR    ⨯ Error: The default export is not a React Component in "/frame/page"
+[08:51:23.274] Server  ERROR    ⨯ Error: The default export is not a React Component in "/frame/page"
+[08:51:23.555] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/frame/page"
+[08:51:40.916] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[08:51:40.916] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/.pnpm/next@16.0.10_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/shared/lib/router/router.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[08:51:40.916] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[08:51:40.987] Server  LOG      ✓ Compiled in 0ms
+[08:51:41.628] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[08:51:41.628] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/frame","route":"/frame"}
+[08:51:41.629] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/frame color: rgb(120, 120, 120) color: inherit {"dp":"/frame","o":"http://localhost:3001/frame","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765728283861}
+[08:51:44.616] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[08:51:44.616] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/frame","route":"/frame"}
+[08:51:44.616] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/frame color: rgb(120, 120, 120) color: inherit {"dp":"/frame","o":"http://localhost:3001/frame","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765728286890}
+[08:51:51.678] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[08:51:51.678] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[08:51:51.678] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765728293951}
+[08:57:49.974] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[08:57:49.974] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[08:57:49.974] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765728652219}
+[08:59:01.458] Server  LOG      ✓ Compiled in 694ms
+[08:59:51.643] Server  LOG      ✓ Compiled in 373ms
+[08:59:55.198] Server  LOG      ✓ Compiled in 224ms
+[09:06:00.445] Server  LOG      ✓ Compiled in 185ms
+[09:06:58.683] Server  LOG      ✓ Compiled in 91ms
+[09:07:16.986] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[09:07:16.986] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/frame","route":"/frame"}
+[09:07:16.986] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/frame color: rgb(120, 120, 120) color: inherit {"dp":"/frame","o":"http://localhost:3001/frame","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765729219284}
+[09:07:18.856] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[09:07:18.856] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[09:07:18.856] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765729221150}
+[09:07:37.342] Server  LOG      ✓ Compiled in 923ms
+[09:07:46.666] Server  LOG      ✓ Compiled in 148ms
+[09:08:00.511] Server  LOG      ✓ Compiled in 181ms
+[09:08:08.831] Server  LOG      ✓ Compiled in 226ms
+[09:08:14.990] Server  LOG      ✓ Compiled in 91ms
+[09:08:44.366] Server  LOG      ✓ Compiled in 223ms
+[09:08:57.642] Server  LOG      ✓ Compiled in 152ms
+[09:09:03.263] Server  LOG      ✓ Compiled in 71ms
+[09:09:05.170] Server  LOG      ✓ Compiled in 66ms
+[09:09:20.951] Server  LOG      ✓ Compiled in 87ms
+[09:09:42.329] Server  LOG      ✓ Compiled in 74ms
+[09:09:47.126] Server  LOG      ✓ Compiled in 51ms
+[09:10:09.078] Server  LOG      ✓ Compiled in 77ms
+[09:10:17.047] Server  LOG      ✓ Compiled in 65ms
+[09:11:10.147] Server  LOG      ✓ Compiled in 117ms
+[09:11:24.221] Server  LOG      ✓ Compiled in 71ms
+[09:11:43.148] Server  LOG      ✓ Compiled in 92ms
+[09:12:03.263] Server  LOG      ✓ Compiled in 68ms
+[09:12:11.702] Server  LOG      ✓ Compiled in 86ms
+[09:12:23.434] Server  LOG      ✓ Compiled in 106ms
+[09:12:39.509] Server  LOG      ✓ Compiled in 139ms
+[09:12:43.437] Server  LOG      ✓ Compiled in 81ms
+[09:12:49.453] Server  LOG      ✓ Compiled in 65ms
+[09:14:52.040] Server  LOG      ✓ Compiled in 144ms
+[09:14:56.938] Server  LOG      ✓ Compiled in 130ms
+[09:15:06.041] Server  LOG      ✓ Compiled in 82ms
+[09:15:10.835] Server  LOG      ✓ Compiled in 104ms
+[09:15:20.867] Server  LOG      ✓ Compiled in 250ms
+[09:15:25.535] Server  LOG      ✓ Compiled in 161ms
+[09:15:41.170] Server  LOG      ✓ Compiled in 179ms
+[09:15:44.292] Server  LOG      ✓ Compiled in 81ms
+[09:15:53.943] Server  LOG      ✓ Compiled in 78ms
+[09:15:56.865] Server  LOG      ✓ Compiled in 62ms
+[09:16:02.564] Server  LOG      ✓ Compiled in 47ms
+[09:16:08.365] Server  LOG      ✓ Compiled in 74ms
+[09:16:13.300] Server  LOG      ✓ Compiled in 54ms
+[09:16:28.841] Server  LOG      ✓ Compiled in 83ms
+[09:16:32.405] Server  LOG      ✓ Compiled in 257ms
+[09:16:36.001] Server  LOG      ✓ Compiled in 73ms
+[09:16:42.784] Server  LOG      ✓ Compiled in 157ms
+[09:16:47.832] Server  LOG      ✓ Compiled in 62ms
+[09:17:59.456] Server  LOG      ✓ Compiled in 131ms
+[09:18:04.969] Server  LOG      ✓ Compiled in 165ms
+[09:18:21.959] Server  LOG      ✓ Compiled in 140ms
+[09:18:37.911] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[09:18:37.911] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[09:18:37.911] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765729900152}
+[09:18:47.204] Server  LOG      ✓ Compiled in 198ms
+[09:18:54.477] Server  LOG      ✓ Compiled in 84ms

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///Users/diegoforero/Documents/proyectos_personales/yuno/uber-trip-simulation/app/frame/page.tsx"],"sourcesContent":["// import YunoIframe from \"yuno-demo-sdk-ui\";\n\n// export default function Page() {\n//   return (\n//     <div>\n//       <YunoIframe url=\"http://localhost:3001\" height=\"800px\" />\n//     </div>\n//   );\n// }"],"names":[],"mappings":"AAAA,6CAA6C;AAE7C,mCAAmC;AACnC,aAAa;AACb,YAAY;AACZ,kEAAkE;AAClE,aAAa;AACb,OAAO;AACP,IAAI"}}]
+}
